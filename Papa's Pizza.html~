@@ -19,36 +19,13 @@
 				<button class="foodItems" id="drinks"  onclick=document.getElementById("pop-up").style.display='block'> Drinks</button>
 	</div>
 </div>
-		<div id="pop-up1" class="pop-up">
+		<div id="pop-up" class="pop-up">
 				<div class="pop-up-content" id="pop-up-content">
-						Thank-You For Choosing Pizzas!
   						<span id="close" class="close">&times;</span><br>
   							<div id="innerline">
-  							<!--  	<button id="quantity1" class="quantity">+</button> -->
-  							 			<input type="number" class="quantNo" id="quantNo" value="0">
-  							 	<!-- <button id="quantity2" class="quantity">-</button>  -->
-						 	</div>				
-				</div> 
-		</div>
-				<div id="pop-up2" class="pop-up">
-				<div class="pop-up-content" id="pop-up-content">
-						Thank-You For Choosing Burgers!
-  						<span id="close" class="close">&times;</span><br>
-  							<div id="innerline">
-  							<!--  	<button id="quantity1" class="quantity">+</button> -->
-  							 			<input type="number" class="quantNo" id="quantNo" value="0">
-  							 	<!-- <button id="quantity2" class="quantity">-</button>  -->
-						 	</div>				
-				</div> 
-		</div>
-				<div id="pop-up3" class="pop-up">
-				<div class="pop-up-content" id="pop-up-content">
-						Thank-You For Choosing Drinks!
-  						<span id="close" class="close">&times;</span><br>
-  							<div id="innerline">
-   							  	<button id="quantity1" class="quantity">+</button>
+  							 	<button id="quantity1" class="quantity" onclick=document.getElementById("qauntNo").innerHTML = document.getElementById("quantNo").value + 1>+</button>
   							 			<input type="text" class="quantNo" id="quantNo" value="0">
-  							 	 <button id="quantity2" class="quantity">-</button> 
+  							 	<button id="quantity2" class="quantity" onclick=document.getElementById("qauntNo").innerHTML = document.getElementById("quantNo").value - 1>-</button> 
 						 	</div>				
 				</div> 
 		</div>	

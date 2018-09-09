@@ -26,17 +26,14 @@
 	    		} 
 	    		
 	    		
-	    		var plus= document.getElementById("quantity1");
-	    		var minus=document.getElementById("quantity2");
-				var amount = document.getElementById("quantNo");	    		
+	   //		var plus= document.getElementById("quantity1");
+	    	//	var minus=document.getElementById("quantity2");
+				//var amount = document.getElementById("quantNo");	    		
 	    		
-	    		plus.onclick = function () {
-	    		  	document.getElementById("qauntNo").value = document.getElementById("quantNo").value + 1;
+	 function plus(){
+	   		getElementById("qauntNo").innerHTML = getElementById("quantNo").value + 1;
 	    		}
 	    		
-	    		minus.onclick = function () {
-	    			
-	    				  	document.getElementById("qauntNo").value = document.getElementById("quantNo").value - 1;
-	    		
-	    			
+	 function minus() { 
+	    		document.getElementById("qauntNo").innerHTML = document.getElementById("quantNo").value - 1;
 	    		}
