@@ -22,13 +22,37 @@
 		<div id="pop-up" class="pop-up">
 				<div class="pop-up-content" id="pop-up-content">
   						<span id="close" class="close">&times;</span><br>
+  							Thank-You For Choosing Pizzas
   							<div id="innerline">
-  							 	<button id="quantity1" class="quantity" onclick=document.getElementById("qauntNo").innerHTML = document.getElementById("quantNo").value + 1>+</button>
-  							 			<input type="text" class="quantNo" id="quantNo" value="0">
-  							 	<button id="quantity2" class="quantity" onclick=document.getElementById("qauntNo").innerHTML = document.getElementById("quantNo").value - 1>-</button> 
-						 	</div>				
+  								Italian Pizza
+  							 	<button id="quantity1" class="quantity" onclick="incrementValue(quantNo1)">+</button>			
+  								<input type="text" class="quantNo" id="quantNo1" value="0">
+  							 	<button id="quantity2" class="quantity" onclick="decrementValue(quantNo1)">-</button> 
+						 	</div> 
+		<br><br><br><br>
+						 	<div id="innerline">
+						 		Cheeze Pizza
+  							 	<button id="quantity1" class="quantity" onclick="incrementValue(quantNo2)">+</button>			
+  								<input type="text" class="quantNo" id="quantNo2" value="0">
+  							 	<button id="quantity2" class="quantity" onclick="decrementValue(quantNo2)">-</button> 
+						 	</div> 
+	  	<br><br><br><br>
+						 	<div id="innerline">
+						 		Farm-House Pizza
+  							 	<button id="quantity1" class="quantity" onclick="incrementValue(quantNo3)">+</button>			
+  								<input type="text" class="quantNo" id="quantNo3" value="0">
+  							 	<button id="quantity2" class="quantity" onclick="decrementValue(quantNo3)">-</button> 
+						 	</div>	
+		<br><br><br><br>
+						 <button onclick=document.getElementById("pop-up1").style.display='block'>Cart</button>				
 				</div> 
 		</div>	
+				<div id="pop-up1" class="pop-up">
+					<div class="pop-up-content" id="pop-up-content1">
+  							<span id="close" class="close">&times;</span><br>
+					</div>
+				</div>	  						
+
 <script src="Papa's Pizza.js"></script>
 </body>
 </html>
