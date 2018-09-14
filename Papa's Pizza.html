@@ -14,12 +14,12 @@
 				<button class="barElements">About</button>
 		</div>	
 	<div class="food">
-				<button class="foodItems" id="pizza"   onclick=document.getElementById("pop-up").style.display='block'> Pizza</button>
-				<button class="foodItems" id="burger"  onclick=document.getElementById("pop-up").style.display='block'> Burger</button>
-				<button class="foodItems" id="drinks"  onclick=document.getElementById("pop-up").style.display='block'> Drinks</button>
+				<button class="foodItems" id="pizza"   onclick=document.getElementById("pop-up").style.display='flex'> Pizza</button>
+				<button class="foodItems" id="burger"  onclick=document.getElementById("pop-up").style.display='flex'> Burger</button>
+				<button class="foodItems" id="drinks"  onclick=document.getElementById("pop-up").style.display='flex'> Drinks</button>
 	</div>
 </div>
-		<div id="pop-up" class="pop-up">
+		<div id="pop-up" class="pop-up" >
 				<div class="pop-up-content" id="pop-up-content">
   						<span id="close" class="close">&times;</span><br>
   							Thank-You For Choosing Pizzas
@@ -44,12 +44,13 @@
   							 	<button id="quantity2" class="quantity" onclick="decrementValue(quantNo3)">-</button> 
 						 	</div>
 		<br><br><br><br>
-						 <button onclick=document.getElementById("pop-up1").style.display='block'>Cart</button>				
+						 <button onclick=document.getElementById("pop-up1").style.display='flex'>Cart</button>				
 				</div> 
 		</div>	
-				<div id="pop-up1" class="pop-up">
+				<div id="pop-up1" class="pop-up" style="background: rgba(255, 255, 255, 0)">
 					<div class="pop-up-content" id="pop-up-content1">
-  							<span id="close" class="close">&times;</span><br>
+				  		<span id="close" class="close">&times;</span><br>
+						<div id="cart" class="cart">CART</div>
 					</div>
 				</div>	  						
 
