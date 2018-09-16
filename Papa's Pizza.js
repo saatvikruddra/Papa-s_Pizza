@@ -48,6 +48,8 @@ window.onclick = function(event) {
     value--;
     x.value = value;
 }	    	
+	
+	
 	// object of pizzas which will be shown in the cart
 
 	var pizzacart = [
@@ -69,6 +71,7 @@ window.onclick = function(event) {
 		quantity : +document.getElementById("quantNo3").value
 	}
 ]; 
+
 
 	// using forEach and if statements filter the results
 	// using the below sytax to create a complete html paragraph in javascript

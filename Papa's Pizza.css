@@ -128,18 +128,26 @@ body{
 			animation: swipeBox 0.5s;
 }
 @keyframes swipeBox {
-    from {top:-200px; opacity:0}
+    from {top:-50px; opacity:0}
     to {top:0; opacity:1}
 }
 
 @keyframes cartBox {
-    from {left:-200px; opacity:0}
-    to {left:0; opacity:1}
+    from {right:200px; opacity:0}
+    to {right:0; opacity:1}
+}
+@keyframes cartBoxBack {
+	from {left:0; opacity:1}
+	to {left:-200px; opacity:0}
 }
 
 @keyframes addressBar{
 	from {right: 50px; opacity:0}
 	to {right:0 ; opacity:1}
+}
+@keyframes addressBarBack{
+	from {right: 0; opacity:1}
+	to {right:50px ; opacity:0}
 }
 
 /* the close button*/
@@ -269,6 +277,7 @@ body{
 	border:red solid 0.5px;
 	text-align: center;
 	bottom: 10px;
+	border-radius: 5px; 	
 	margin-top: 40%;
 }
 
@@ -280,7 +289,7 @@ body{
 	color:red;
 	padding:5px;
 	position: absolute;
-	margin-top:10%;
+	margin-top:50%;
 	margin-left:10%;
 	font-size: 14;
 	z-index: 1002;
@@ -311,6 +320,7 @@ body{
 	cursor: pointer;
 }
 
+	/* The Place Order Button */
 #placeOrder{
 	position: relative;
 	border:red solid 0.5px;
@@ -321,3 +331,4 @@ body{
 	margin-left:60%;
 	border-radius: 10px;
 }
+
