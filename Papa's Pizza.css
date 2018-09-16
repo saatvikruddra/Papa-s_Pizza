@@ -136,18 +136,10 @@ body{
     from {right:200px; opacity:0}
     to {right:0; opacity:1}
 }
-@keyframes cartBoxBack {
-	from {left:0; opacity:1}
-	to {left:-200px; opacity:0}
-}
 
 @keyframes addressBar{
 	from {right: 50px; opacity:0}
 	to {right:0 ; opacity:1}
-}
-@keyframes addressBarBack{
-	from {right: 0; opacity:1}
-	to {right:50px ; opacity:0}
 }
 
 /* the close button*/
@@ -295,6 +287,10 @@ body{
 	z-index: 1002;
 	border-radius: 5px;
 	cursor: pointer;
+}
+
+#goBack2{
+	margin-top:7%;
 }
 
 	/* The address lines */
